@@ -10,6 +10,37 @@ Non Premetive (Reference) ----> 3 type
  const outSideTemp = null;
  let userEmailId;
 
- const id = symbole('123');
- const anotherId = symbole('123');
- console.log(id == anotherId);
+ const id = Symbol('123');
+ const anotherId = Symbol('123');
+ //console.log(id == anotherId);
+ const bigNumber = 1223323131313n;
+
+
+
+ //Array object function
+ const heroes=["shaktiman","naagraj" , "dogo"];
+
+ let myObj = {
+    name : "ashu",
+    age: "22",
+ }
+
+ const myfunction = function(){
+    console.log("hello world");
+ }
+
+
+/****************PREMITIVE DATA TYPE OF */
+
+
+ console.log(typeof score);
+ console.log(typeof scorevalue);
+ console.log(typeof isLoggedId);
+ console.log(typeof outSideTemp);
+ console.log(typeof userEmailId);
+ console.log(typeof bigNumber);
+ 
+
+
+
+
