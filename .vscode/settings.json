@@ -4,5 +4,6 @@
    "code-runner.exucutorMap":{
       "javascript":"node 02_datatypes.js"
 
-   }
+   },
+   "editor.mouseWheelZoom": true
 }
