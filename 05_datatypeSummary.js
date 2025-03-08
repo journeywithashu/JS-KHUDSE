@@ -33,12 +33,37 @@ Non Premetive (Reference) ----> 3 type
 /****************PREMITIVE DATA TYPE OF */
 
 
- console.log(typeof score);
+ /*console.log(typeof score);
  console.log(typeof scorevalue);
  console.log(typeof isLoggedId);
  console.log(typeof outSideTemp);
  console.log(typeof userEmailId);
- console.log(typeof bigNumber);
+ console.log(typeof bigNumber);*/
+
+
+ //+++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack (Premitive) , Heap (Non-Premitive)
+
+ let myYoutubename = "journeywithashu"
+
+ let anonthername = myYoutubename
+ anothername = "ashu"
+
+ console.log(myYoutubename);
+ console.log(anothername);
+
+ let userOne={
+    email : "ashu@gmail.com",
+    upi : "user@ybl",
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "journeywithashu@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
  
 
 
